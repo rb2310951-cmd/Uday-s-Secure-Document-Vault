@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uday’s Secure Document Vault</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h2>Uday’s Secure Document Vault</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Secure Your Documents, Anytime, Anywhere</h1>
+  <p>Store and access your personal documents safely.</p>
+  <a href="login.html" class="btn green">Login</a>
+  <a href="register.html" class="btn blue">Create Account</a>
+</section>
+
+<footer>
+  © 2026 Uday’s Secure Document Vault
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>Login</h2>
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+      <button class="btn green">Forget Password</button>
+       <p><a href="Login.html">Login</a></p>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>Create Account</h2>
+    <p>New user? <a href="register.html">Register</a></p>
+  <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Middle Name">
+      <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="Full Name">
+          <input type="text" placeholder="Phone Number">
+          
+
+
+
+
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+  <button class="btn blue">Register</button>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h2>Dashboard</h2>
+  <nav>
+    <a href="upload.html">Upload</a>
+    <a href="index.html">Logout</a>
+  </nav>
+</header>
+
+<div class="content">
+  <h3>Your Documents</h3>
+  <ul class="docs">
+        <li>📄 Resume.docx</li>
+   <li>📄 Aadhaar.pdf</li>
+     <li>📄 Pancard.pdf</li>
+       <li>📄Passport.pdf</li>
+            <li>📄Bank Passbook.pdf</li>
+         <li>📄Driving Licence.pdf</li>
+         <li>📄Class 10th Marksheets.pdf</li>
+         <li>📄Class 12th Marksheet.pdf</li>
+             <li>📄Graduation Marksheets.pdf</li>
+                 <li>📄Post Graduation Marksheets.pdf</li>
+                                    <li>📄Certificate.pdf</li>
+
+             <li>📄Passport Size Photo.pdf</li>
+                   <li>📄Signature.pdf</li>
+
+  </ul>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>Upload Document</h2>
+  <input type="file">
+  <button class="btn green">Upload</button>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UdayTech Logo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .logo-container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        h1 {
+            color: #333;
+            margin: 0;
+            font-size: 32px;
+            text-align: center;
+        }
+        
+        .logo-variants {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            width: 100%;
+            margin-top: 40px;
+        }
+        
+        .variant {
+            text-align: center;
+        }
+        
+        .variant h3 {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <h1>UdayTech Logo</h1>
+        
+        <!-- Main Logo -->
+        <svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+            <!-- Shield background -->
+            <defs>
+                <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#0052a3;stop-opacity:1" />
+                </linearGradient>
+                <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#0099cc;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            
+            <!-- Shield shape -->
+            <path d="M 100 20 L 160 50 L 160 110 C 160 150 100 180 100 180 C 100 180 40 150 40 110 L 40 50 Z" 
+                  fill="url(#shieldGradient)" stroke="#003d7a" stroke-width="2"/>
+            
+            <!-- Document icon inside shield -->
+            <g transform="translate(100, 100)">
+                <!-- Document background -->
+                <rect x="-28" y="-35" width="56" height="70" rx="3" fill="white" opacity="0.95"/>
+                
+                <!-- Document lines -->
+                <line x1="-18" y1="-20" x2="18" y2="-20" stroke="url(#accentGradient)" stroke-width="2" stroke-linecap="round"/>
+                <line x1="-18" y1="-8" x2="18" y2="-8" stroke="#0066cc" stroke-width="2" stroke-linecap="round"/>
+                <line x1="-18" y1="4" x2="18" y2="4" stroke="#0066cc" stroke-width="2" stroke-linecap="round"/>
+                <line x1="-18" y1="16" x2="8" y2="16" stroke="#0066cc" stroke-width="2" stroke-linecap="round"/>
+                
+                <!-- Lock icon -->
+                <g transform="translate(0, 25)">
+                    <rect x="-10" y="-5" width="20" height="15" rx="2" fill="none" stroke="url(#accentGradient)" stroke-width="2"/>
+                    <path d="M -6 -5 L -6 -10 Q 0 -13 6 -10 L 6 -5" fill="none" stroke="url(#accentGradient)" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="0" cy="5" r="1.5" fill="url(#accentGradient)"/>
+                </g>
+            </g>
+        </svg>
+        
+        <div class="logo-variants">
+            <!-- Horizontal Version -->
+            <div class="variant">
+                <h3>Horizontal</h3>
+                <svg viewBox="0 0 400 150" width="300" height="112.5" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="shieldGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#0052a3;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="accentGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#0099cc;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    
+                    <!-- Shield -->
+                    <path d="M 75 25 L 115 45 L 115 95 C 115 125 75 145 75 145 C 75 145 35 125 35 95 L 35 45 Z" 
+                          fill="url(#shieldGradient2)" stroke="#003d7a" stroke-width="1.5"/>
+                    
+                    <!-- Document inside -->
+                    <g transform="translate(75, 75)">
+                        <rect x="-15" y="-20" width="30" height="40" rx="2" fill="white" opacity="0.95"/>
+                        <line x1="-10" y1="-12" x2="10" y2="-12" stroke="url(#accentGradient2)" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="-10" y1="-4" x2="10" y2="-4" stroke="#0066cc" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="-10" y1="4" x2="5" y2="4" stroke="#0066cc" stroke-width="1.5" stroke-linecap="round"/>
+                    </g>
+                    
+                    <!-- Text -->
+                    <text x="150" y="100" font-size="48" font-weight="bold" fill="#0066cc" font-family="'Segoe UI', sans-serif">
+                        UdayTech
+                    </text>
+                </svg>
+            </div>
+            
+            <!-- Icon Only -->
+            <div class="variant">
+                <h3>Icon Only</h3>
+                <svg viewBox="0 0 200 200" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="shieldGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#0052a3;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M 100 20 L 160 50 L 160 110 C 160 150 100 180 100 180 C 100 180 40 150 40 110 L 40 50 Z" 
+                          fill="url(#shieldGradient3)" stroke="#003d7a" stroke-width="2"/>
+                    <rect x="72" y="65" width="56" height="70" rx="3" fill="white" opacity="0.95"/>
+                    <line x1="82" y1="80" x2="118" y2="80" stroke="#0066cc" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="82" y1="92" x2="118" y2="92" stroke="#0066cc" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="82" y1="104" x2="118" y2="104" stroke="#0066cc" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
